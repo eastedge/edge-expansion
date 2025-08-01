@@ -19,11 +19,12 @@ For example, if you run the following command in the plugin directory, a directo
 
 ## Setting up a development environment
 ```
+cd edge-block
 npm start
 ```
 
 ## For production environments
 ```
 //For production environments
-npm build
+npm run build
 ```
