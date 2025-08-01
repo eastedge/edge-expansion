@@ -12,6 +12,7 @@ Create Block is an official WordPress tool that creates the templates and develo
 To create a block skeleton and development environment, run the create-block command in your terminal.
 For example, if you run the following command in the plugin directory, a directory called edge-block will be created and the necessary files will be generated inside it.
 
+## Creating Files
 ```
 % npx @wordpress/create-block edge-block
 ```
