@@ -26,6 +26,8 @@ npm start
 ```
 
 ## For production environments
+Once development is complete, run the production build with the npm run build command.
+
 ```
 //For production environments
 npm run build
