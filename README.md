@@ -13,7 +13,7 @@ To create a block skeleton and development environment, run the create-block com
 For example, if you run the following command in the plugin directory, a directory called edge-block will be created and the necessary files will be generated inside it.
 
 ```
-% npx @wordpress/create-block@latest edge-block
+% npx @wordpress/create-block edge-block
 ```
 
 
