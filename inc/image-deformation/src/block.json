@@ -1,0 +1,49 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "edge/image-deformation",
+	"version": "1.0.0",
+	"title": "image Deformation",
+	"category": "edge",
+	"icon": "format-image",
+	"description": "Transform images into squares, rounded corners, or circles",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "shape": {
+      "type": "string",
+      "default": "rectangle"
+    },
+    "borderRadius": {
+      "type": "number",
+      "default": 0
+    },
+    "width": {
+      "type": "string",
+      "default": "300px"
+    },
+    "height": {
+      "type": "string",
+      "default": "300px"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "center"
+    }
+  },
+	"textdomain": "image-deformation",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

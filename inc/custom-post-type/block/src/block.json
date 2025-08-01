@@ -1,0 +1,64 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "edge/custom-post-type",
+	"version": "1.1.0",
+	"title": "Custom Post Type",
+	"category": "edge",
+	"icon": "book",
+	"description": "Add custom post types and custom taxonomies",
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"attributes": {
+		"postCount": {
+			"type": "number",
+			"default": 6
+		},
+		"columnsNum": {
+			"type": "number",
+			"default": 3
+		},
+		"postType": {
+			"type": "string",
+			"default": ""
+		},
+		"fontSize": {
+		  "type": "string",
+		  "default": "24px"
+		},
+		"showImage": {
+			"type": "boolean",
+			"default": true
+		},
+		"showDate": {
+			"type": "boolean",
+			"default": true
+		},
+		"showTaxonomy": {
+			"type": "boolean",
+			"default": true
+		},
+		"showAuthor": {
+			"type": "boolean",
+			"default": true
+		},
+		"showExcerpt": {
+			"type": "boolean",
+			"default": true
+		},
+		"excerptLength": {
+            "type": "number",
+            "default": 24
+        }
+	},
+	"textdomain": "edge-expansion",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

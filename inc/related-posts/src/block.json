@@ -1,0 +1,61 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "edge/related-posts",
+	"version": "1.1.0",
+	"title": "Related Posts",
+	"category": "edge",
+	"icon": "format-aside",
+	"description": "Display a list of related posts in a list or column.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+	"attributes": {
+	  "postsToShow": {
+		"type": "number",
+		"default": 6
+	  },
+	  "numberColumns": {
+		"type": "number",
+		"default": 3
+	  },
+	  "fontSize": {
+		"type": "string",
+		"default": "21px"
+	  },
+	  "showImage": {
+		"type": "boolean",
+		"default": true
+	  },
+	  "showCategory": {
+		"type": "boolean",
+		"default": true
+	  },
+	  "showDate": {
+		"type": "boolean",
+		"default": true
+	  },
+	  "showAuthor": {
+		"type": "boolean",
+		"default": true
+	  },
+	  "showExcerpt": {
+		"type": "boolean",
+		"default": true
+	  },
+	  "excerptLength": {
+		"type": "number",
+		"default": 20
+	  }
+	},
+	"textdomain": "edge-expansion",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

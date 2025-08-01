@@ -1,0 +1,82 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "edge/breadcrumb-trail",
+	"version": "1.1.0",
+	"title": "Breadcrumb Trail",
+	"category": "edge",
+	"icon": "align-pull-left",
+	"description": "A list of links in hierarchical order on a Web page",
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"blockGap": true
+		}
+	},
+    "attributes": {
+        "homeText": {
+            "type": "string",
+            "default": ""
+        },
+        "displayHomeIcon": {
+            "type": "boolean",
+            "default": true
+        },
+        "homeIconMarginR": {
+            "type": "number",
+            "default": 0
+        },
+        "homeIconMarginT": {
+            "type": "number",
+            "default": 0
+        },
+        "homeIconMarginB": {
+            "type": "number",
+            "default": 0
+        },
+        "fontSize": {
+            "type": "string",
+            "default": "16px"
+        },
+        "icon": {
+            "type": "string",
+            "default": "dashicons-arrow-right-alt2"
+        },
+        "iconSize": {
+            "type": "number",
+            "default": 16
+        },
+        "homeIcon": {
+            "type": "string",
+            "default": "home"
+        },
+        "marginRight": {
+            "type": "number",
+            "default": 0
+        },
+        "marginLeft": {
+            "type": "number",
+            "default": 0
+        },
+		"marginTop": {
+            "type": "number",
+            "defaul": 0
+        },
+        "marginBottom": {
+            "type": "number",
+            "defaul": 0
+        },
+        "arrowWidth": {
+            "type": "number",
+            "default": 16
+        }
+    },
+	"textdomain": "edge-expansion",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

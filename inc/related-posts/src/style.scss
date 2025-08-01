@@ -1,0 +1,199 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-edge-related-posts {
+	width:100%;
+	color: #333;
+	padding: 2px;
+	overflow:hidden;
+}
+ul.edge-related-posts-items {
+	width:100%;
+	color: #333;
+	padding: 8px;
+	list-style-type: none;
+}
+img{
+	max-width:100%;
+}
+ul.edge-related-posts-items .item .related-content .related-title{
+	font-size:1.0em;
+}
+ul.edge-related-posts-items.container-1 {
+	display:block;
+	overflow:hidden;
+
+}
+ul.edge-related-posts-items.container-1 li.related-item{
+	color:#333;
+	margin-bottom:16px;
+	overflow:hidden;
+}
+ul.edge-related-posts-items.container-1 p{
+	font-size:0.9em;
+}
+ul.edge-related-posts-items.container-1 li.related-item .wp-block-related-posts-thumbnail{
+	float:left;
+	width:35%;
+}
+ul.edge-related-posts-items.container-1 li.related-item .wp-block-related-posts-thumbnail img{
+	width:100%;
+	height:auto;
+}
+ul.edge-related-posts-items.container-1 li.related-item .wp-block-related-posts-content{
+	float:left;
+	width:60%;
+	padding:0 8px;
+	
+}
+ul.edge-related-posts-items.container-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap:16px;
+}
+ul.edge-related-posts-items.container-2 li.related-item{
+	color:#333;
+	overflow:hidden;
+}
+ul.edge-related-posts-items.container-2 li.related-item .wp-block-related-posts-thumbnail{
+	width:100%;
+	height:auto;
+}
+ul.edge-related-posts-items.container-2 li.related-item .wp-block-related-posts-thumbnail img{
+	width:100%;
+	height:auto;
+}
+ul.edge-related-posts-items.container-2 p{
+	font-size:0.9em;
+}
+
+ul.edge-related-posts__post-items.container-2 .wp-block-related-posts-content{
+	width:100%;
+}
+
+ul.edge-related-posts-items.container-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap:16px;
+}
+
+ul.edge-related-posts-items.container-3 li.related-item{
+	color:#333;
+	overflow:hidden;
+}
+
+ul.edge-related-posts-items.container-3 li.related-item .wp-block-related-posts-thumbnail{
+	width:100%;
+	height:auto;
+}
+ul.edge-related-posts-items.container-3 li.related-item .wp-block-related-posts-thumbnail img{
+	width:100%;
+	height:auto;
+}
+
+img.wp-block-latest-posts-block-thumbnail{
+    margin:0;
+    padding:0;
+}
+ul.edge-related-posts-items.container-3 p{
+	font-size:0.9em;
+}
+
+ul.edge-related-posts-items.container-3 li.rrelated-item .wp-block-related-posts-content{
+	width:100%;
+	margin-top:8px;
+}
+ul.edge-related-posts-items.container-4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap:16px;
+}
+ul.edge-related-posts-items.container-4 li.related-item{
+	color:#333;
+	overflow:hidden;
+}
+
+ul.edge-related-posts-items.container-4 li.related-item .wp-block-related-posts-thumbnail{
+	width:100%;
+	height:auto;
+}
+ul.edge-related-posts-items.container-4 li.related-item .wp-block-related-posts-thumbnail img{
+	width:100%;
+	height:auto;
+}
+ul.edge-related-posts-items.container-4 p{
+	font-size:0.9em;
+}
+ul.edge-related-posts-items.container-4 li.related-item .wp-block-related-posts-content{
+	width:100%;
+	margin-top:8px;
+}
+h5.wp-block-related-posts-title{
+	margin:0;
+	padding:0;
+	line-height:1.4;
+}
+h5.wp-block-related-posts-title a{
+	margin:0;
+	padding:0;
+	line-height:1.4;
+	font-weight:400;
+}
+.wp-block-latest-posts-block-meta{
+    font-size:0.9em;
+}
+.wp-block-related-posts-date{
+    display:inline;
+    font-size:0.9em;
+}
+.wp-block-related-posts-category{
+    display:inline;
+    font-size:0.9em;
+}
+.wp-block-related-posts-author{
+    display:inline;
+    font-size:0.9em;
+}
+
+.wp-block-related-posts-date::before{
+	margin: 0 2px;
+    color: #333;
+    font-family: "dashicons";
+	content: "\f321";
+    font-weight: 400;
+    font-size: 0.9em;
+}
+.wp-block-related-posts-category::before {
+    margin: 0 2px;
+    color: #333;
+    font-family: "dashicons";
+    content: "\f318";
+    font-weight: 600;
+    font-size: 0.9em;
+}
+.wp-block-related-posts-author::before {
+	margin: 0 2px;
+    color: #333;
+    font-family: "dashicons";
+	content: "\f110";
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.wp-block-related-posts-excerpt{
+	margin: 0;
+	padding:8px 0 0;
+}
+.wp-block-related-posts-category a{
+	text-decoration:none;
+}
+
+

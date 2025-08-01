@@ -1,0 +1,208 @@
+/*.wp-block-edge-related-posts-column {
+    width: 100%;
+    color: #333;
+    padding: 2px;
+  }
+  
+  .wp-block-edge-related-posts {
+    width: 100%;
+    color: #333;
+    padding: 0;
+  }*/
+  
+  .wp-block-related-posts-items {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  ul.wp-block-related-posts-items.container-1 {
+    display: block;
+    overflow: hidden;
+  }
+  
+  ul.wp-block-related-posts-items.container-1 li.related-item {
+    width: 100%;
+    color: #333;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+  ul.wp-block-related-posts-items.container-1 li.related-item .wp-block-related-posts-thumbnail {
+    float: left;
+    width: 40%;
+  }
+  
+  ul.wp-block-related-posts-items.container-1 li.related-item .wp-block-related-posts-content {
+    float: left;
+    width: 60%;
+    padding: 0 16px;
+  }
+  
+  ul.wp-block-related-posts-items.container-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 16px;
+  }
+  
+  ul.wp-block-related-posts-items.container-2 li.related-item {
+    color: #333;
+    overflow:hidden;
+  }
+  
+  ul.wp-block-related-posts-items.container-2 li.related-item .wp-block-related-posts-content {
+    width: 100%;
+  }
+  
+  ul.wp-block-related-posts-items.container-3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 16px;
+  }
+  
+  ul.wp-block-related-posts-items.container-3 li.related-item {
+    color: #333;
+    overflow:hidden;
+  }
+  
+  ul.wp-block-related-posts-items.container-3 li.related-item .wp-block-related-posts-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  
+  ul.wp-block-related-posts-items.container-3 li.related-item .wp-block-related-posts-thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  
+  ul.wp-block-related-posts-items.container-3 li.related-item .wp-block-related-posts-content {
+    width: 100%;
+  }
+  
+  ul.wp-block-related-posts-items.container-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 12px;
+  }
+  
+  ul.wp-block-related-posts-items.container-4 li.related-item {
+    color: #333;
+    overflow:hidden;
+  }
+  
+  ul.wp-block-related-posts-items.container-4 li.related-item .wp-block-related-posts-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+  
+  ul.wp-block-related-posts-items.container-4 li.related-item .wp-block-related-posts-thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  
+  ul.wp-block-related-posts-items.container-4 li.related-item .wp-block-related-posts-content {
+    width: 100%;
+    padding: 8px;
+    overflow: hidden;
+  }
+  .wp-block-related-posts-img {
+    width: 100%;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+  }
+  .wp-block-related-posts-thumbnail {
+    /*width: 100%;
+    margin: 0 auto;
+    margin: 0;
+    padding: 0;*/
+  }
+  
+  .wp-block-related-posts-thumbnail img {
+    /*width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;*/
+  }
+  
+  /*img.wp-block-related-posts-image {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }*/
+  
+img.wp-block-related-posts-thumbnail{
+    margin:0;
+    padding:0;
+}
+  h4.wp-block-related-posts-title {
+    font-size:1.2em;
+    margin: 0;
+    padding: 0;
+    /*word-wrap: break-word;
+    word-break: break-all;
+    overflow-wrap: break-word;*/
+  }
+
+  h4.wp-block-related-posts-title a{
+    //text-decoration:none;
+    margin:0;
+    padding:0;
+    /*word-wrap: break-word;
+    word-break: break-all;
+    overflow-wrap: break-word;*/
+  }
+  
+  .wp-block-related-posts-block-meta {
+    width: 100%;
+    font-size: 0.9em;
+    overflow: hidden;
+  }
+  
+  .wp-block-related-posts-date {
+    font-size: 0.9em;
+  }
+  
+  .wp-block-related-posts-category {
+    font-size: 0.9em;
+  }
+  
+  .wp-block-related-posts-author {
+    font-size: 0.9em;
+  }
+  
+  .wp-block-related-posts-date::before {
+    margin: 0 2px;
+    color: #333;
+    font-family: "dashicons";
+    content: "\f321";
+    font-weight: 400;
+    font-size: 0.9em;
+  }
+  
+  .wp-block-related-posts-category::before {
+    margin: 0 2px;
+    color: #333;
+    font-family: "dashicons";
+    content: "\f318";
+    font-weight: 400;
+    font-size: 0.9em;
+  }
+  
+  .wp-block-related-posts-author::before {
+    margin: 0 2px;
+    color: #333;
+    font-family: "dashicons";
+    content: "\f110";
+    font-weight: 400;
+    font-size: 0.9em;
+  }
+  
+  .wp-block-related-posts-excerpt {
+    margin: 0;
+    padding: 8px 0 8px 0;
+  }
+  /*# sourceMappingURL=index.css.map*/

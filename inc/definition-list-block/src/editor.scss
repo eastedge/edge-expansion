@@ -1,0 +1,73 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-custom-definition-list-block {
+    padding: 4px;
+    //border-radius: 8px;
+
+    .definition-item {
+        //margin-bottom: 16px;
+        //padding: 12px;
+        //border: 1px solid #ddd;
+        //border-radius: 6px;
+        dl {
+            margin: 0;
+            padding: 0;
+        }
+        dt {
+            //font-weight: bold;
+        }
+        dd {
+            margin: 4px 0 4px 16px;
+        }
+
+        label {
+            //font-weight: bold;
+            display: block;
+            margin-bottom: 4px;
+            color: #333;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .remove-button {
+            width:6em;
+            margin-top: 8px;
+            background-color: #ffffff;
+            color: #ffffff;
+            font-size:16px;
+            border: 2px solid #e74c3c;
+            padding: 6px 12px;
+            margin-bottom:8px;
+            border-radius: 4px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #f4c6c1;
+            }
+        }
+    }
+
+    .add-button {
+        background-color: #2ecc71;
+        color: #ffffff;
+        font-size:16px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #27ae60;
+        }
+    }
+}

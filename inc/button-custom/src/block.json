@@ -1,0 +1,93 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "edge/button-custom",
+	"version": "1.0.0",
+	"title": "Custom Buttons",
+	"category": "edge",
+	"icon": "button",
+	"description": "Added the ability to change button width, button color on hover, and background color",
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"blockGap": true
+		}
+	},
+	"attributes": {
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"buttonText": {
+			"type": "string",
+			"default": "Click me"
+		},
+		"buttonWidth": {
+			"type": "number",
+			"default": 108
+		},
+		"buttonHeight": {
+			"type": "number",
+			"default": 36
+		},
+		"fontSize": {
+			"type": "string",
+			"default": "21px"
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"bgColor": {
+			"type": "string",
+			"default": "#0073aa"
+		},
+		"hoverTextColor": {
+			"type": "string",
+			"default": "#ffffff"
+		},
+		"hoverBgColor": {
+			"type": "string",
+			"default": "#005177"
+		},
+		"borderRadius": {
+			"type": "number",
+			"default": 5
+		},
+		"borderColor": {
+		  "type": "string",
+		  "default": "#000000"
+		},
+		"borderWidth": {
+		  "type": "number",
+		  "default": 2
+		},
+		"paddingVertical": {
+		  "type": "number",
+		  "default": 4
+		},
+		"buttonLink": {
+		  "type": "string",
+		  "default": "#"
+		},
+		"alignment": {
+			"type": "string",
+			"default": "center"
+		},
+		"url": {
+			"type": "string",
+			"default": ""
+		},
+    	"opensInNewTab": {
+      		"type": "boolean",
+      		"default": false
+    	}
+	},
+	"textdomain": "edge-expansion",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

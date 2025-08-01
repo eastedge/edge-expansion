@@ -1,0 +1,201 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-edge-custom-post-type {
+	/*border: 1px dotted #f00;*/
+}
+.custom-posts-type-block{
+	display:block;
+	overflow:hidden;
+}
+ ul.wp-block-custom-post-type-items {
+	width:100%;
+	color: #333;
+	margin:0;
+	padding:0;
+	list-style-type: none;
+  }
+
+  ul.wp-block-custom-post-type-items.columns-1 {
+	width: 100%;
+  }
+  
+  ul.wp-block-custom-post-type-items.columns-1 li.custompost-item {
+	clear:both;
+	width: 100%;
+	color: #333;
+	margin-bottom: 16px;
+	padding:8px;
+	overflow:hidden;
+	/*border:1px solid #ccc;*/
+  }
+  ul.wp-block-custom-post-type-items.columns-1 li.custompost-item .wp-block-custom-post-type-thumbnail{
+	float:left;
+	width:35%;
+    overflow:hidden;
+
+  }
+  ul.wp-block-custom-post-type-items.columns-1 li.custompost-item .wp-block-custom-post-type-thumbnail img{
+	width:100%;
+	height:auto;
+
+  }
+  ul.wp-block-custom-post-type-items.columns-1 li.custompost-item .wp-block-custom-post-type-content{
+	float:left;
+	width:60%;
+	padding:0 16px;
+  }
+  ul.wp-block-custom-post-type-items.columns-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap:12px;
+  }
+  
+  ul.wp-block-custom-post-type-items.columns-2 li.custompost-item {
+	color: #333;
+	padding:0;
+	/*border:1px solid #ccc;*/
+  }
+  ul.wp-block-custom-post-type-items.columns-2 li.custompost-item .wp-block-custom-post-type-thumbnail{
+	width:100%;
+    overflow:hidden;
+  }
+  ul.wp-block-custom-post-type-items.columns-2 li.custompost-item .wp-block-custom-post-type-thumbnail img{
+	width:100%;
+	height:auto;
+
+  }
+  ul.wp-block-custom-post-type-items.columns-2 li.custompost-item .wp-block-custom-post-type-content{
+	width:100%;
+	padding:0 8px;
+  }
+  
+  ul.wp-block-custom-post-type-items.columns-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap:12px;
+  }
+  
+  ul.wp-block-custom-post-type-items.columns-3 li.custompost-item {
+	color: #333;
+	padding:0;
+	/*border:1px solid #ccc;*/
+  }
+
+  ul.wp-block-custom-post-type-items.columns-3 li.custompost-item .wp-block-custom-post-type-thumbnail{
+	width:100%;
+    overflow:hidden;
+  }
+  ul.wp-block-custom-post-type-items.columns-3 li.custompost-item .wp-block-custom-post-type-thumbnail img{
+	width:100%;
+	height:auto;
+
+  }
+  ul.wp-block-custom-post-type-items.columns-3 li.custompost-item .wp-block-custom-post-type-content{
+	width:100%;
+	padding:0 8px;
+  }
+  
+  ul.wp-block-custom-post-type-items.columns-4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap:8px;
+  }
+  
+  ul.wp-block-custom-post-type-items.columns-4 li.custompost-item {
+	color: #333;
+	padding:0;
+	/*border:1px solid #ccc;*/
+  }
+
+  ul.wp-block-custom-post-type-items.columns-4 li.custompost-item .wp-block-custom-post-type-thumbnail{
+	width:100%;
+    overflow:hidden;
+  }
+  ul.wp-block-custom-post-type-items.columns-4 li.custompost-item .wp-block-custom-post-type-thumbnail img{
+	width:100%;
+	height:auto;
+
+  }
+  ul.wp-block-custom-post-type-items.columns-4 li.custompost-item .wp-block-custom-post-type-content{
+	width:100%;
+	padding:0 8px;
+  }
+  
+  ul.wp-block-custom-post-type-items li h5 {
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+  }
+  
+  ul.wp-block-custom-post-type-items li h5 a {
+	margin: 0;
+	padding: 0;
+  }
+  
+.wp-block-custom-post-type a::before {
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
+	color: #fff;
+	font-family: "dashicons";
+	content: "\f343";
+	font-weight: 900;
+	font-size: 32px;
+	text-align: center;
+}
+ 
+.wp-block-custom-post-type-block-meta{
+    font-size:0.9em;
+} 
+.wp-block-custom-post-type-date {
+	display: inline;
+	font-size: 0.9em;
+}
+  
+.wp-block-custom-post-type-date::before {
+	margin: 0 2px;
+	color: #333;
+	font-family: "dashicons";
+	content: "\f321";
+	font-weight: 600;
+	font-size: 0.9em;
+}
+  
+.wp-block-custom-post-type-category {
+	display: inline;
+	font-size: 0.9em;
+}
+  
+.wp-block-custom-post-type-category::before {
+	margin: 0 2px;
+	color: #333;
+	font-family: "dashicons";
+	content: "\f318";
+	font-weight: 600;
+	font-size: 0.9em;
+}
+  
+.wp-block-custom-post-type-author {
+	display: inline;
+	font-size: 0.9em;
+}
+  
+.wp-block-custom-post-type-author:before {
+	margin: 0 2px;
+	color: #333;
+	font-family: "dashicons";
+	content: "\f110";
+	font-weight: 600;
+	font-size: 0.9em;
+}
+
+.wp-block-custom-post-type-excerpt {
+	margin-top: 8px;
+}
