@@ -21,8 +21,8 @@ For example, if you run the following command in the plugin directory, a directo
 In your terminal, navigate to the directory my-block and run the command npm start to enable edge-block and start development.
 
 ```
-cd edge-block
-npm start
+% cd edge-block
+% npm start
 ```
 
 ## For production environments
@@ -30,5 +30,5 @@ Once development is complete, run the production build with the npm run build co
 
 ```
 //For production environments
-npm run build
+% npm run build
 ```
