@@ -18,6 +18,8 @@ For example, if you run the following command in the plugin directory, a directo
 
 
 ## Setting up a development environment
+In your terminal, navigate to the directory my-block and run the command npm start to enable edge-block and start development.
+
 ```
 cd edge-block
 npm start
