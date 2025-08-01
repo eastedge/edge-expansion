@@ -1,0 +1,54 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "edge/definition-list-block",
+	"version": "0.1.0",
+	"title": "Definition List Block",
+	"category": "edge",
+	"icon": "list-view",
+	"description": "You can create a list of definition types, which consist of a term that you define (the dt element) and a description for that term (the dd element).",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": true
+	},
+	"attributes": {
+	  "items": {
+		"type": "array",
+		"default": []
+	  },
+	  "dtFontSize": {
+		"type": "string",
+		"default": "21px"
+	  },
+	  "dtFontWeight": {
+		"type": "string",
+		"default": "bold"
+	  },
+	  "dtTextColor": {
+		"type": "string",
+		"default": "#333333"
+	  },
+	  "ddFontSize": {
+		"type": "string",
+		"default": "18px"
+	  },
+	  "ddFontWeight": {
+		"type": "string",
+		"default": "normal"
+	  },
+	  "ddVerticalMargin": {
+		"type": "number",
+		"default": 8
+	  },
+	  "ddLeftMargin": {
+		"type": "number",
+		"default": 16
+	  }
+	},
+	"textdomain": "edge-expansion",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

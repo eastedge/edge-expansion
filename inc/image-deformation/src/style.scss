@@ -1,0 +1,25 @@
+// style.scss
+.image-rect,
+.image-square,
+.image-rounded,
+.image-circle {
+  display: inline-block;
+  overflow: hidden;
+  img {
+    display: block;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  &:hover img {
+    transform: scale(1.05);
+  }
+}
+
+// editor.scss（エディタ用）
+.image-rect,
+.image-square,
+.image-rounded,
+.image-circle {
+  outline: 2px dashed #ccc;
+  position: relative;
+}

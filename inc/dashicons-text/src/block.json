@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "edge/dashicons-text",
+	"version": "1.1.0",
+	"title": "Dashicons Text",
+	"category": "edge",
+	"icon": "text",
+	"description": "Displays Dashicons icons before or after the text.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"spacing": {
+			"margin": true,
+			"padding": true
+		}
+	},
+    "attributes": {
+        "content": { "type": "string", "default": "" },
+        "icon": { "type": "string", "default": "dashicons-admin-site" },
+        "iconPosition": { "type": "string", "default": "left" },
+        "iconSize": { "type": "number", "default": 24 },
+        "iconColor": { "type": "string", "default": "#000000" },
+        "spacingVer": { "type": "number", "default": 5 },
+        "spacingTop": { "type": "number", "default": 5 },
+        "spacingBottom": { "type": "number", "default": 5 },
+        "textFontSize": { "type": "string", "default": "21px" },
+        "alignment": { "type": "string", "default": "left" }
+    },
+	"textdomain": "edge-expansion",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

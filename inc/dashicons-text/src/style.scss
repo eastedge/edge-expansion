@@ -1,0 +1,52 @@
+.edge-dashicons-text{
+    display: flex;
+    justify-content: flex-start;
+}
+.edge-dashicons-text .dashicons {
+    display: inline-block;
+    margin:0;
+    padding:0;
+}
+.edge-dashicons-text .text-dashicons{
+    display: inline-block;
+    margin:0;
+    padding:0;
+}
+.edge-dashicons-text p{
+    display: inline-block;
+    margin:0;
+    padding:0;
+}
+
+
+/* Image placement */
+.align-left {
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.align-center {
+    display: block;
+    margin: 0 auto;
+}
+
+.align-right {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.dashicons-text-container {
+    display: flex;
+    justify-content: flex-start;
+
+    &.align-center {
+        justify-content: center;
+    }
+
+    &.align-right {
+        justify-content: flex-end;
+    }
+}
+

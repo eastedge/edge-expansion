@@ -1,0 +1,114 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.wp-block-edge-breadcrumb-trail {
+	width:100%;
+	color: #333;
+    margin:0;
+    padding:0;
+}
+.wp-block-edge-breadcrumb-trail > ul{
+    display: flex;
+    margin:0;
+    padding:4px 16px;
+	list-style-type: none;
+}
+.wp-block-edge-breadcrumb-trail > ul li {
+    line-height:1.0;
+    vertical-align: middle;
+    margin:0;
+    padding:0;
+    display:inline-block;
+    overflow:hidden;
+}
+.wp-block-edge-breadcrumb-trail > ul li a{
+    text-decoration:none;
+}
+.wp-block-edge-breadcrumb-trail > ul li:nth-child(1){
+    line-height:1.2;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+
+.wp-block-edge-breadcrumb-trail > ul li:nth-child(2){
+    line-height:1.2;
+    margin-top: 0;
+    vertical-align: middle;
+}
+
+.wp-block-edge-breadcrumb-trail > ul li:nth-child(3){
+    line-height:1.2;
+    vertical-align: middle;
+}
+.wp-block-edge-breadcrumb-trail > ul li:nth-child(4){
+    line-height:1.2;
+    vertical-align: middle;
+}
+
+.wp-block-edge-breadcrumb-trail > ul li .dashicons{
+    line-height:1.0;
+    vertical-align:top;
+    margin:0;
+    padding:0;
+}
+.wp-block-edge-breadcrumb-trail > ul li .edgehomeicons{
+    line-height:1.0;
+    vertical-align:middle;
+    margin:0;
+    padding:0;
+}
+.wp-block-edge-breadcrumb-trail > ul li .homeText{
+    content: "";
+}
+.wp-block-edge-breadcrumb-trail > ul li .iconHome{
+    font-family: "dashicons";
+	content: "\f102";
+    margin-top:0;
+    vertical-align:top;
+}
+.wp-block-edge-breadcrumb-trail > ul li .edgehomeicons.homeicon{
+    color: #333;
+    font-family: "dashicons";
+	content: "\f102";
+    font-weight: 900;
+    margin-top:18px;
+    margin-top:0;
+    vertical-align:top;
+}
+.wp-block-edge-breadcrumb-trail > ul li .diagonal::after {
+    //content: "/";
+    font-family: "dashicons";
+    content: "\f460";
+    margin:0;
+    padding:0;
+    vertical-align:top;
+    font-size: 16px; 
+    transform:rotate(90deg);  
+}
+.homeicon:after{
+    color: #333;
+    font-family: "dashicons";
+	content: "\f102";
+    font-weight: 900;
+    margin-top:18px;
+    vertical-align:middle;
+}
+.home::after{
+    color: #333;
+	content: "Home";
+    font-weight: 900;
+    margin-top:18px;
+    vertical-align:middle;
+
+}
+.dashicons.dashicons-admin-home{
+    vertical-align:top;
+    line-height:1.0;
+    margin-right:16px;
+}
+ 

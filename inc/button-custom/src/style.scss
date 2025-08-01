@@ -1,0 +1,96 @@
+*{
+	box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.wp-block-custom-button-block .custom-button {
+    transition: all 0.3s ease;
+}
+
+.button-block-container {
+    display: flex;
+    justify-content: flex-start;
+}
+.button-block-container.align-center {
+    display: flex;
+        justify-content: center;
+}
+
+.button-block-container.align-right {
+    display: flex;
+        justify-content: flex-end;
+}
+
+.custom-button {
+    transition: all 0.3s ease;
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+    text-align:center;
+}
+
+.custom-button:hover {
+    color: var(--button-hover-text, inherit);
+    background-color: var(--button-hover-bg, inherit);
+}
+
+a.button-block{
+    display:block;
+    color: var(--button-text-color);
+    background-color: var(--button-bg-color);
+    text-decoration:none;
+}
+a.button-block:hover{
+    color: var(--button-hover-text, inherit);
+    background-color: var(--button-hover-bg, inherit);
+    text-decoration:none;
+}
+
+.custom-button {
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.custom-button a{
+    display: block;
+    text-decoration:none;
+}
+.wp-block-button{
+    display: block;
+}
+.wp-block-button a{
+    display: block;
+    text-decoration:none;
+    width:var(--width);
+    height:var(--height);
+    color:var(--color);
+    background-color:var(--background-color);
+    border-radius:var(--border-radius);
+    border-width:var(--border-width);
+    padding-top:var(--padding-top);
+    text-align:var(--text-align);
+    &:hover {
+        color: var(--hover-text-color);
+        background-color: var(--hover-background-color);
+        border-radius:var(--border-radius);
+    }
+}
+
+.custom-button a{
+    display: block;
+    text-decoration:none;
+    width:var(--width);
+    height:var(--height);
+    color:var(--color);
+    background-color:var(--background-color);
+    border-radius:var(--border-radius);
+    border-width:var(--border-width);
+    border-color:var(--border-color);
+    padding-top:var(--padding-top);
+    text-align:var(--text-align);
+    &:hover {
+        color: var(--hover-text-color);
+        background-color: var(--hover-background-color);
+        border-radius:var(--border-radius);
+    }
+}
