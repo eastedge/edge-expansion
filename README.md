@@ -4,7 +4,7 @@ It is a Wordpress integration plugin that comes with a variety of features to en
 
 ### Environment Construction（Mac）
 - Install MAMP
-- Install Node.js
+- Install Node.js\
 npm is installed when you install Node.js.
 
 ### How to use (overview)
