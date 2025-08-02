@@ -13,6 +13,7 @@ To create a block skeleton and development environment, run the create-block com
 For example, if you run the following command in the plugin directory, a directory called edge-block will be created and the necessary files will be generated inside it.
 
 ### Creating Files
+The Node.js create-block is a tool for creating custom blocks in the WordPress block editor. Using this tool, you can easily generate a block template to get started.
 ```
 % npx @wordpress/create-block edge-block
 ```
